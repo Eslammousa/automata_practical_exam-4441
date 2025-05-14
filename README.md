@@ -1,7 +1,7 @@
 # automata_practical_exam(4441)
 ## Section: 2
 ## Eslam Mousa Mousa Omar
-## task:2       task:3
+## task 1  task:2  task:3
 
 ## Getting Started
 ### Make sure you have NET 8 installed. 
