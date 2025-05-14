@@ -6,7 +6,7 @@
 ## Getting Started
 ### Make sure you have NET 9 installed. 
 
-# Install dependencies (only needed to run tests) 
+### Install dependencies (only needed to run tests) 
 
  
     install FluentAssertion 
