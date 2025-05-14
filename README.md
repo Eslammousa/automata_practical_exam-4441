@@ -19,14 +19,16 @@
 
 
 ## Run the Programs
-### to run project Dfa(problem_1)
- dotnet run --project Dfa(problem_1)\Dfa(problem_1).csproj  
+git clone https://github.com/your-username/PDA.git
 
-### to run project Dfa(problem_1)
+### to run  PDA
+ cd PDA
+ dotnet run --project PDA/PDA.csproj
+ 
+### to run Turing Machine
+cd TuringMachineSimulator
+dotnet run --project TuringMachineSimulator/TuringMachineSimulator.csproj
 
- dotnet run --project Pda(problem_2)\PDa(problem_2).csproj 
+### To run all tests case
+dotnet run --project Test_Task/Test_task.csproj
 
-### To run all tests: dotnet test
-To run a specific test Dfa: dotnet test Dfa(problem_1)\Dfa(problem_1).csproj 
-
-To run a specific test Pda:  dotnet test PDa(problem_2)\PDa(problem_2).csproj 
