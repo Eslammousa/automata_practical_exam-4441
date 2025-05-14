@@ -1,0 +1,14 @@
+D:\Programs\PDA\bin\Debug\net9.0\PDA.exe
+D:\Programs\PDA\bin\Debug\net9.0\PDA.deps.json
+D:\Programs\PDA\bin\Debug\net9.0\PDA.runtimeconfig.json
+D:\Programs\PDA\bin\Debug\net9.0\PDA.dll
+D:\Programs\PDA\bin\Debug\net9.0\PDA.pdb
+D:\Programs\PDA\obj\Debug\net9.0\PDA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\PDA\obj\Debug\net9.0\PDA.AssemblyInfoInputs.cache
+D:\Programs\PDA\obj\Debug\net9.0\PDA.AssemblyInfo.cs
+D:\Programs\PDA\obj\Debug\net9.0\PDA.csproj.CoreCompileInputs.cache
+D:\Programs\PDA\obj\Debug\net9.0\PDA.dll
+D:\Programs\PDA\obj\Debug\net9.0\refint\PDA.dll
+D:\Programs\PDA\obj\Debug\net9.0\PDA.pdb
+D:\Programs\PDA\obj\Debug\net9.0\PDA.genruntimeconfig.cache
+D:\Programs\PDA\obj\Debug\net9.0\ref\PDA.dll

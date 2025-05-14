@@ -1,0 +1,14 @@
+D:\Programs\regularexpressionToDFA\bin\Debug\net9.0\regularexpressionToDFA.exe
+D:\Programs\regularexpressionToDFA\bin\Debug\net9.0\regularexpressionToDFA.deps.json
+D:\Programs\regularexpressionToDFA\bin\Debug\net9.0\regularexpressionToDFA.runtimeconfig.json
+D:\Programs\regularexpressionToDFA\bin\Debug\net9.0\regularexpressionToDFA.dll
+D:\Programs\regularexpressionToDFA\bin\Debug\net9.0\regularexpressionToDFA.pdb
+D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\regularexpressionToDFA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\regularexpressionToDFA.AssemblyInfoInputs.cache
+D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\regularexpressionToDFA.AssemblyInfo.cs
+D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\regularexpressionToDFA.csproj.CoreCompileInputs.cache
+D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\regularexpressionToDFA.dll
+D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\refint\regularexpressionToDFA.dll
+D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\regularexpressionToDFA.pdb
+D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\regularexpressionToDFA.genruntimeconfig.cache
+D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\ref\regularexpressionToDFA.dll

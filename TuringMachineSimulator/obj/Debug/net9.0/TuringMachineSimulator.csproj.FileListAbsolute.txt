@@ -1,0 +1,14 @@
+D:\Programs\TuringMachineSimulator\bin\Debug\net9.0\TuringMachineSimulator.exe
+D:\Programs\TuringMachineSimulator\bin\Debug\net9.0\TuringMachineSimulator.deps.json
+D:\Programs\TuringMachineSimulator\bin\Debug\net9.0\TuringMachineSimulator.runtimeconfig.json
+D:\Programs\TuringMachineSimulator\bin\Debug\net9.0\TuringMachineSimulator.dll
+D:\Programs\TuringMachineSimulator\bin\Debug\net9.0\TuringMachineSimulator.pdb
+D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\TuringMachineSimulator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\TuringMachineSimulator.AssemblyInfoInputs.cache
+D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\TuringMachineSimulator.AssemblyInfo.cs
+D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\TuringMachineSimulator.csproj.CoreCompileInputs.cache
+D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\TuringMachineSimulator.dll
+D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\refint\TuringMachineSimulator.dll
+D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\TuringMachineSimulator.pdb
+D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\TuringMachineSimulator.genruntimeconfig.cache
+D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\ref\TuringMachineSimulator.dll
