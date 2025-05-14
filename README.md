@@ -17,18 +17,20 @@
 
   intall xunit.runner.visualstudio 
 
+# Clonce Repo
+git clone https://github.com/Eslammousa/automata_practical_exam-4441.git
 
-## Run the Programs
-git clone https://github.com/your-username/PDA.git
+# Run the Programs
 
+### to run regularexpressionToDFA
+dotnet run --project regularexpressionToDFA/regularexpressionToDFA.csproj
 ### to run  PDA
- cd PDA
  dotnet run --project PDA/PDA.csproj
  
 ### to run Turing Machine
-cd TuringMachineSimulator
 dotnet run --project TuringMachineSimulator/TuringMachineSimulator.csproj
 
 ### To run all tests case
-dotnet run --project Test_Task/Test_task.csproj
+cd Test_Task
+dotnet test
 
