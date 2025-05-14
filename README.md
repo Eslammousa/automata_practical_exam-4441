@@ -9,26 +9,26 @@
 ### Install dependencies (only needed to run tests) 
 
  
-  install FluentAssertion 
+    install FluentAssertion 
  
- install Microsoft.Net.Test.Sdk 
+    install Microsoft.Net.Test.Sdk 
 
- install coverlet.collector 
+    install coverlet.collector 
 
-  intall xunit.runner.visualstudio 
+    intall xunit.runner.visualstudio 
 
 # Clone Repo
-git clone https://github.com/Eslammousa/automata_practical_exam-4441.git
+    git clone https://github.com/Eslammousa/automata_practical_exam-4441.git
 
 # Run the Programs
 
 ### to run regularexpressionToDFA
-dotnet run --project regularexpressionToDFA/regularexpressionToDFA.csproj
+    dotnet run --project regularexpressionToDFA/regularexpressionToDFA.csproj
 ### to run  PDA
- dotnet run --project PDA/PDA.csproj
+    dotnet run --project PDA/PDA.csproj
  
 ### to run Turing Machine
-dotnet run --project TuringMachineSimulator/TuringMachineSimulator.csproj
+    dotnet run --project TuringMachineSimulator/TuringMachineSimulator.csproj
 
 ### To run all tests case
     cd Test_Task
