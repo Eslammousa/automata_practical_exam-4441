@@ -22,15 +22,15 @@
 
 # Run the Programs
 
-### to run regular expression To DFA
+#to run regular expression To DFA
     dotnet run --project regularexpressionToDFA/regularexpressionToDFA.csproj
-### to run  PDA
+# to run  PDA
     dotnet run --project PDA/PDA.csproj
  
-### to run Turing Machine
+# to run Turing Machine
     dotnet run --project TuringMachineSimulator/TuringMachineSimulator.csproj
 
-### To run all test case
+# To run all test case
     cd Test_Task
     
     dotnet test
