@@ -31,6 +31,6 @@ dotnet run --project regularexpressionToDFA/regularexpressionToDFA.csproj
 dotnet run --project TuringMachineSimulator/TuringMachineSimulator.csproj
 
 ### To run all tests case
- cd Test_Task
- dotnet test
+    cd Test_Task
+    dotnet test
 
