@@ -17,7 +17,7 @@
 
   intall xunit.runner.visualstudio 
 
-# Clonce Repo
+# Clone Repo
 git clone https://github.com/Eslammousa/automata_practical_exam-4441.git
 
 # Run the Programs
