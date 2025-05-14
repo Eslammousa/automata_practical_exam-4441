@@ -30,7 +30,7 @@
 ### to run Turing Machine
     dotnet run --project TuringMachineSimulator/TuringMachineSimulator.csproj
 
-### To run all tests case
+### To run all test case
     cd Test_Task
     
     dotnet test
