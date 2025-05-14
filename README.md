@@ -22,7 +22,7 @@
 
 # Run the Programs
 
-### to run regularexpressionToDFA
+### to run regular expression To DFA
     dotnet run --project regularexpressionToDFA/regularexpressionToDFA.csproj
 ### to run  PDA
     dotnet run --project PDA/PDA.csproj
