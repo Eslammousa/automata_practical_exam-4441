@@ -12,3 +12,4 @@ D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\refint\regularexpressionToDF
 D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\regularexpressionToDFA.pdb
 D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\regularexpressionToDFA.genruntimeconfig.cache
 D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\ref\regularexpressionToDFA.dll
+D:\Programs\regularexpressionToDFA\obj\Debug\net9.0\regularexpressionToDFA.sourcelink.json

@@ -12,3 +12,4 @@ D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\refint\TuringMachineSimulato
 D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\TuringMachineSimulator.pdb
 D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\TuringMachineSimulator.genruntimeconfig.cache
 D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\ref\TuringMachineSimulator.dll
+D:\Programs\TuringMachineSimulator\obj\Debug\net9.0\TuringMachineSimulator.sourcelink.json

@@ -113,3 +113,4 @@ D:\Programs\Test_Task\bin\Debug\net9.0\regularexpressionToDFA.runtimeconfig.json
 D:\Programs\Test_Task\bin\Debug\net9.0\regularexpressionToDFA.exe
 D:\Programs\Test_Task\bin\Debug\net9.0\regularexpressionToDFA.dll
 D:\Programs\Test_Task\bin\Debug\net9.0\regularexpressionToDFA.pdb
+D:\Programs\Test_Task\obj\Debug\net9.0\Test_Task.sourcelink.json

@@ -1,22 +1,56 @@
-﻿using TuringMachineSimulator;
+﻿using System;
+using System.Collections.Generic;
 
-public class Program
+public class TuringMachine
 {
-    static void Main(string[] args)
+   public static void Main()
     {
-        try
-        {
-            InputHandler inputHandler = new InputHandler();
-            string input = inputHandler.GetInput();
+        TuringMachine turing = new TuringMachine();
+        Console.Write("Enter input string (only 0s and 1s): ");
+        var input = Console.ReadLine();
+        var tape = new List<char>(input);
 
-            TuringMachine machine = new TuringMachine();
-            bool result = machine.Recognize(input);
+        if (turing.IsAccepted(tape))
+            Console.WriteLine("Accepted");
+        else
+            Console.WriteLine("Rejected");
+    }
 
-            Console.WriteLine(result ? "Accepted by the Turing Machine." : "Rejected by the Turing Machine.");
-        }
-        catch (ArgumentException ex)
+    public  bool IsAccepted(List<char> tape)
+    {
+        int steps = 0;
+        while (true)
         {
-            Console.WriteLine($"Error: {ex.Message}");
+            int i = 0;
+
+            while (i < tape.Count && tape[i] != '0') i++;
+            if (i == tape.Count) break;
+            tape[i] = 'X';
+
+            i++;
+            while (i < tape.Count && tape[i] != '1') i++;
+            if (i == tape.Count) return false;
+            tape[i] = 'Y';
+
+            i++;
+            while (i < tape.Count && tape[i] != '0') i++;
+            if (i == tape.Count) return false;
+            tape[i] = 'Z';
+
+            i++;
+            while (i < tape.Count && tape[i] != '1') i++;
+            if (i == tape.Count) return false;
+            tape[i] = 'W';
+
+            steps++;
         }
+
+        foreach (char c in tape)
+        {
+            if (c != 'X' && c != 'Y' && c != 'Z' && c != 'W')
+                return false;
+        }
+
+        return steps > 0;
     }
 }
