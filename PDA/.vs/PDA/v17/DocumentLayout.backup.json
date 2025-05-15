@@ -3,25 +3,10 @@
   "WorkspaceRootPath": "D:\\Programs\\PDA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46A2E3EC-8CB9-4C64-8C64-40CA97731D94}|..\\Test_Task\\Test_Task.csproj|d:\\programs\\test_task\\dfasimulationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46A2E3EC-8CB9-4C64-8C64-40CA97731D94}|..\\Test_Task\\Test_Task.csproj|d:\\programs\\test_task\\turingmachine_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46A2E3EC-8CB9-4C64-8C64-40CA97731D94}|..\\Test_Task\\Test_Task.csproj|d:\\programs\\test_task\\test_task.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC66E83-57A2-48CC-985C-CD43ADD38DBC}|..\\regularexpressionToDFA\\regularexpressionToDFA.csproj|d:\\programs\\regularexpressiontodfa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC66E83-57A2-48CC-985C-CD43ADD38DBC}|..\\regularexpressionToDFA\\regularexpressionToDFA.csproj|d:\\programs\\regularexpressiontodfa\\dfasimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC66E83-57A2-48CC-985C-CD43ADD38DBC}|..\\regularexpressionToDFA\\regularexpressionToDFA.csproj|d:\\programs\\regularexpressiontodfa\\dfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC66E83-57A2-48CC-985C-CD43ADD38DBC}|..\\regularexpressionToDFA\\regularexpressionToDFA.csproj|d:\\programs\\regularexpressiontodfa\\nfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC66E83-57A2-48CC-985C-CD43ADD38DBC}|..\\regularexpressionToDFA\\regularexpressionToDFA.csproj|d:\\programs\\regularexpressiontodfa\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F18869C3-A543-46C0-838F-1C8249015313}|..\\TuringMachineSimulator\\TuringMachineSimulator.csproj|d:\\programs\\turingmachinesimulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,21 +16,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Test_Task",
-              "DocumentMoniker": "D:\\Programs\\Test_Task\\Test_Task.csproj",
-              "RelativeDocumentMoniker": "..\\Test_Task\\Test_Task.csproj",
-              "ToolTip": "D:\\Programs\\Test_Task\\Test_Task.csproj",
-              "RelativeToolTip": "..\\Test_Task\\Test_Task.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-14T10:05:07.696Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -65,79 +37,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DfaSimulationTests.cs",
-              "DocumentMoniker": "D:\\Programs\\Test_Task\\DfaSimulationTests.cs",
-              "RelativeDocumentMoniker": "..\\Test_Task\\DfaSimulationTests.cs",
-              "ToolTip": "D:\\Programs\\Test_Task\\DfaSimulationTests.cs",
-              "RelativeToolTip": "..\\Test_Task\\DfaSimulationTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Title": "TuringMachine_Test.cs",
+              "DocumentMoniker": "D:\\Programs\\Test_Task\\TuringMachine_Test.cs",
+              "RelativeDocumentMoniker": "..\\Test_Task\\TuringMachine_Test.cs",
+              "ToolTip": "D:\\Programs\\Test_Task\\TuringMachine_Test.cs*",
+              "RelativeToolTip": "..\\Test_Task\\TuringMachine_Test.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T10:05:36.002Z",
+              "WhenOpened": "2025-05-15T01:27:27.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DFASimulator.cs",
-              "DocumentMoniker": "D:\\Programs\\regularexpressionToDFA\\DFASimulator.cs",
-              "RelativeDocumentMoniker": "..\\regularexpressionToDFA\\DFASimulator.cs",
-              "ToolTip": "D:\\Programs\\regularexpressionToDFA\\DFASimulator.cs",
-              "RelativeToolTip": "..\\regularexpressionToDFA\\DFASimulator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:58:32.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DFA.cs",
-              "DocumentMoniker": "D:\\Programs\\regularexpressionToDFA\\DFA.cs",
-              "RelativeDocumentMoniker": "..\\regularexpressionToDFA\\DFA.cs",
-              "ToolTip": "D:\\Programs\\regularexpressionToDFA\\DFA.cs",
-              "RelativeToolTip": "..\\regularexpressionToDFA\\DFA.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:57:06.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NFA.cs",
-              "DocumentMoniker": "D:\\Programs\\regularexpressionToDFA\\NFA.cs",
-              "RelativeDocumentMoniker": "..\\regularexpressionToDFA\\NFA.cs",
-              "ToolTip": "D:\\Programs\\regularexpressionToDFA\\NFA.cs",
-              "RelativeToolTip": "..\\regularexpressionToDFA\\NFA.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:56:42.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "State.cs",
-              "DocumentMoniker": "D:\\Programs\\regularexpressionToDFA\\State.cs",
-              "RelativeDocumentMoniker": "..\\regularexpressionToDFA\\State.cs",
-              "ToolTip": "D:\\Programs\\regularexpressionToDFA\\State.cs",
-              "RelativeToolTip": "..\\regularexpressionToDFA\\State.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:56:24.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Programs\\regularexpressionToDFA\\Program.cs",
-              "RelativeDocumentMoniker": "..\\regularexpressionToDFA\\Program.cs",
-              "ToolTip": "D:\\Programs\\regularexpressionToDFA\\Program.cs",
-              "RelativeToolTip": "..\\regularexpressionToDFA\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Programs\\TuringMachineSimulator\\Program.cs",
+              "RelativeDocumentMoniker": "..\\TuringMachineSimulator\\Program.cs",
+              "ToolTip": "D:\\Programs\\TuringMachineSimulator\\Program.cs",
+              "RelativeToolTip": "..\\TuringMachineSimulator\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwB0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:56:00.136Z",
+              "WhenOpened": "2025-05-15T01:05:16.227Z",
               "EditorCaption": ""
             }
           ]

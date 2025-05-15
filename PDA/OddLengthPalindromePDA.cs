@@ -8,7 +8,7 @@ namespace PDA
 {
         public class OddLengthPalindromePDA
         {
-            public bool IsPalindrome(string input)
+            public bool IsPalindrome(string input) // abcba
             {
                 int length = input.Length;
 
@@ -21,7 +21,7 @@ namespace PDA
                 
                 for (int i = 0; i < mid; i++)
                 {
-                    stack.Push(input[i]);
+                    stack.Push(input[i]); // ba
                 }
 
                

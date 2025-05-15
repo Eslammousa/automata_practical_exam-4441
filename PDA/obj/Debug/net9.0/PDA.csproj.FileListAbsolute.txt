@@ -12,3 +12,4 @@ D:\Programs\PDA\obj\Debug\net9.0\refint\PDA.dll
 D:\Programs\PDA\obj\Debug\net9.0\PDA.pdb
 D:\Programs\PDA\obj\Debug\net9.0\PDA.genruntimeconfig.cache
 D:\Programs\PDA\obj\Debug\net9.0\ref\PDA.dll
+D:\Programs\PDA\obj\Debug\net9.0\PDA.sourcelink.json
