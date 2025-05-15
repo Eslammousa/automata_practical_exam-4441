@@ -1,69 +1,74 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public class TuringMachine
+public class Program
 {
-    public static void Main()
+    public bool SimulateTm(string inputStr)
     {
-        TuringMachine turing = new TuringMachine();
-        Console.Write("Enter input string (only 0s and 1s): ");
-        var input = Console.ReadLine();
-        var tape = new List<char>(input);
+        List<char> tape = new List<char>(inputStr.ToCharArray());
+        int head = 0;
 
-        if (turing.IsAccepted(tape))
-            Console.WriteLine("Accepted");
-        else
-            Console.WriteLine("Rejected");
-    }
+        Func<char, char, int, int> findAndMark = (symbol, mark, start) => {
+            head = start;
+            while (head < tape.Count)
+            {
+                if (tape[head] == symbol)
+                {
+                    tape[head] = mark;
+                    return head;
+                }
+                head++;
+            }
+            return -1;
+        };
 
-    public bool IsAccepted(List<char> tape)
-    {
-        int left = 0;
-        int right = tape.Count - 1;
+        Action moveToStart = () => head = 0;
 
-        // Count n zeros from start
-        int countZeroStart = 0;
-        while (left <= right && tape[left] == '0')
+        while (true)
         {
-            countZeroStart++;
-            tape[left] = 'X'; 
-            left++;
-        }
-        if (countZeroStart == 0) return false; 
+            moveToStart();
 
-        // Count n ones next
-        int countOneFirst = 0;
-        while (left <= right && tape[left] == '1')
+            // Step 1: Find 0 and mark it X
+            int i1 = findAndMark('0', 'X', 0);
+            if (i1 == -1) break;  // No more 0s to match
+
+            // Step 2: Find 1 and mark it Y
+            int i2 = findAndMark('1', 'Y', i1 + 1);
+            if (i2 == -1) return false;
+
+            // Step 3: Find second 0 and mark it X
+            int i3 = findAndMark('0', 'X', i2 + 1);
+            if (i3 == -1) return false;
+
+            // Step 4: Find second 1 and mark it Y
+            int i4 = findAndMark('1', 'Y', i3 + 1);
+            if (i4 == -1) return false;
+        }
+
+        if (tape.Count == 0) return false;
+        foreach (char c in tape)
         {
-            countOneFirst++;
-            tape[left] = 'Y';
-            left++;
+            if (c != 'X' && c != 'Y') return false;
         }
-        if (countOneFirst != countZeroStart) return false; // عدد
-
-        // Count n zeros next
-        int countZeroSecond = 0;
-        while (left <= right && tape[left] == '0')
-        {
-            countZeroSecond++;
-            tape[left] = 'Z';
-            left++;
-        }
-        if (countZeroSecond != countZeroStart) return false; // عدد الأصفار هنا لازم يساوي الأول
-
-        // Count n ones last
-        int countOneSecond = 0;
-        while (left <= right && tape[left] == '1')
-        {
-            countOneSecond++;
-            tape[left] = 'W';
-            left++;
-        }
-        if (countOneSecond != countZeroStart) return false; // لازم يساوي نفس العدد
-
-        // تأكد إن السلسلة كلها متصفح عليها
-        if (left <= right) return false; // إذا فيه أي رمز باقي مش محسوب => رفض
 
         return true;
+    }
+
+ 
+
+    public static void Main(string[] args)
+    {
+        Program program = new Program();
+        Console.Write("Enter a binary string to check: ");
+        string? userInput = Console.ReadLine();
+
+        if (program.SimulateTm(userInput))
+        {
+            Console.WriteLine("Accepted.");
+        }
+        else
+        {
+            Console.WriteLine("Rejected.");
+        }
     }
 }
