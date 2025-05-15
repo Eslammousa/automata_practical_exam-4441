@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TuringMachineSimulator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1731a48a2eda70c5cd918e4e01e738534e5d61c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1226acb534ad0bdf8b4ffda1cbf8babdd74f676")]
 [assembly: System.Reflection.AssemblyProductAttribute("TuringMachineSimulator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TuringMachineSimulator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
